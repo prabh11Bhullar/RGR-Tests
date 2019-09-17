@@ -22,7 +22,7 @@ public class EvenOddTest {
 		//R1. If n is even, return true
 		EvenOdd x = new EvenOdd();
 		boolean actualOutput = x.isEven(120);
-		assertEquals(false, actualOutput);
+		assertEquals(true, actualOutput);
 	}
 	
 
