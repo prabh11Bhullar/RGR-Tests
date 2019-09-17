@@ -32,7 +32,7 @@ public class EvenOddTest {
 		// * R2. If n is odd, return false
 		EvenOdd x=new EvenOdd();
 		boolean actualOutput=x.isEven(115);
-		assertEquals(true,actualOutput);
+		assertEquals(false,actualOutput);
 	}
 	
 
