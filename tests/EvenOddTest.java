@@ -25,5 +25,15 @@ public class EvenOddTest {
 		assertEquals(true, actualOutput);
 	}
 	
+	@Test
+	
+	public void testOddNumber()
+	{
+		// * R2. If n is odd, return false
+		EvenOdd x=new EvenOdd();
+		boolean actualOutput=x.isEven(115);
+		assertEquals(true,actualOutput);
+	}
+	
 
 }
