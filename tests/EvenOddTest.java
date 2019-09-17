@@ -44,6 +44,17 @@ public class EvenOddTest {
 		boolean actualOutput=x.isEven(-115);
 		assertEquals(true,actualOutput);
 	}
+
+@Test
+
+public void nGreaterThanOne()
+{
+	 //* R4. N must be > 1
+	EvenOdd x=new EvenOdd();
+	boolean actualOutput=x.isEven(-15);
+	assertEquals(true,actualOutput);
+	
+}
 	
 
 }
