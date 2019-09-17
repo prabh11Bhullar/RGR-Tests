@@ -35,5 +35,15 @@ public class EvenOddTest {
 		assertEquals(false,actualOutput);
 	}
 	
+@Test
+	
+	public void testNLessThanOne()
+	{
+		// * R3. If N < 1, then return false
+		EvenOdd x=new EvenOdd();
+		boolean actualOutput=x.isEven(-115);
+		assertEquals(false,actualOutput);
+	}
+	
 
 }
