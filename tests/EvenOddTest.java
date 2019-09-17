@@ -42,7 +42,7 @@ public class EvenOddTest {
 		// * R3. If N < 1, then return false
 		EvenOdd x=new EvenOdd();
 		boolean actualOutput=x.isEven(-115);
-		assertEquals(true,actualOutput);
+		assertEquals(false,actualOutput);
 	}
 
 @Test
@@ -52,7 +52,7 @@ public void nGreaterThanOne()
 	 //* R4. N must be > 1
 	EvenOdd x=new EvenOdd();
 	boolean actualOutput=x.isEven(-15);
-	assertEquals(true,actualOutput);
+	assertEquals(false,actualOutput);
 	
 }
 	
